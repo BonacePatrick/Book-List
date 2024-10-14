@@ -63,11 +63,14 @@ label {
   background-color: #fcfcfcfc;
   padding: 1rem;
   margin-top: 1rem;
-  width: 40%;
-  height: 40%;
+  width: 50%;
+  height: 50%;
   margin-left: auto;
   margin-right: auto;
 }
 .message {
     color: blue;
+}
+.remove-btn {
+    margin-left: 0.8rem;
 }

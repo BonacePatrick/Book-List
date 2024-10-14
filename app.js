@@ -33,6 +33,7 @@ function displayBooks() {
     //   delete button
     const deleteButton = document.createElement("button");
     deleteButton.textContent = "Remove";
+    deleteButton.classList.add('remove-btn')
     deleteButton.addEventListener("click", () => {
       removeBook(index);
     });
