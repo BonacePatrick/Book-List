@@ -1,0 +1,73 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+}
+
+#book-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: #fcfcfcfc;
+  width: 40%;
+  height: 40%;
+  padding: 1.5rem;
+  min-height: 50vh;
+  margin-left: auto;
+  margin-right: auto;
+}
+input {
+  padding: 0.7rem;
+  margin-right: 1rem;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+#read {
+  padding: 0.7rem;
+  margin-right: 1rem;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+input:focus {
+  border: 1px solid;
+  border-color: blue;
+  outline: none;
+}
+.form-fields {
+  display: flex;
+}
+.form-contents {
+  display: flex;
+  flex-direction: column;
+}
+button {
+  background-color: blue;
+  color: white;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
+  border: none;
+}
+label {
+  color: black;
+  font-weight: 600;
+}
+#book-list {
+  text-align: center;
+  background-color: #fcfcfcfc;
+  padding: 1rem;
+  margin-top: 1rem;
+  width: 40%;
+  height: 40%;
+  margin-left: auto;
+  margin-right: auto;
+}
+.message {
+    color: blue;
+}
